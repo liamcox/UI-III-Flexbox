@@ -131,6 +131,9 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
 }
 
 html,
@@ -160,6 +163,7 @@ button {
 
 .wrapper {
   margin: 3%;
+  margin-left: 11%;
 }
 header {
   display: flex;
@@ -303,4 +307,11 @@ footer {
 }
 .service-footer-con1 ul {
   margin-left: 4%;
+}
+
+/* For the about page */
+
+.about-h1 {
+  margin-left: 33%;
+  font-size: 40px;
 }
